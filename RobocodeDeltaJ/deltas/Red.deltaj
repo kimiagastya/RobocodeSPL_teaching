@@ -1,0 +1,13 @@
+delta Red {
+    
+    modifies jab.ModuleBot {
+        
+        modifies initialize() {
+            setBodyColor(new java.awt.Color(139, 0, 0));
+            setGunColor(new java.awt.Color(255, 69, 0));
+            setRadarColor(new java.awt.Color(255, 0, 0));
+            setScanColor(new java.awt.Color(255, 192, 203));
+            setBulletColor(new java.awt.Color(220, 20, 60));
+        }
+    }
+}

@@ -1,0 +1,13 @@
+delta Green {
+    
+    modifies jab.ModuleBot {
+        
+        modifies initialize() {
+            setBodyColor(new java.awt.Color(0, 100, 0));
+            setGunColor(new java.awt.Color(144, 238, 144));
+            setRadarColor(new java.awt.Color(0, 255, 0));
+            setScanColor(new java.awt.Color(152, 251, 152));
+            setBulletColor(new java.awt.Color(50, 205, 50));
+        }
+    }
+}

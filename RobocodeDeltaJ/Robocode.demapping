@@ -42,3 +42,12 @@ MouseClickGun:
 
 NoFireGun:
 <decore/NoFireGun.decore>
+
+Blue:
+<decore/Blue.decore>
+
+Red:
+<decore/Red.decore>
+
+Green:
+<decore/Green.decore>
