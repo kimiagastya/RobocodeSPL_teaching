@@ -5,6 +5,7 @@ delta CircularMovement {
         modifies move() {
             bot.setMaxVelocity(4);
             bot.setTurnRight(5);
+            bot.setAhead(1000000);
         }
     }
 }
