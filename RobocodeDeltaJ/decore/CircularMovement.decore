@@ -1,0 +1,12 @@
+ configuration delta "CircularMovement"
+	dialect <http://www.emftext.org/java>
+		modifies <../src/jab/module/Movement.java>
+		{
+	modifyStatementListContainer(<method:jab.module.Movement.move()>, "public void move() {
+            bot.setMaxVelocity(4);
+            bot.setTurnRight(5);
+            bot.setAhead(1000000);
+	}
+", "CircularMovement", false);
+	}
+	

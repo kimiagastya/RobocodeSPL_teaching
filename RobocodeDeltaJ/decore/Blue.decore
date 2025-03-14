@@ -1,0 +1,14 @@
+ configuration delta "Blue"
+	dialect <http://www.emftext.org/java>
+		modifies <../src/jab/ModuleBot.java>
+		{
+	modifyStatementListContainer(<method:jab.ModuleBot.initialize()>, "protected void initialize() {
+            setBodyColor(new java.awt.Color(0,0,139));     // Dark blue
+            setGunColor(new java.awt.Color(135,206,235));  // Sky blue
+            setRadarColor(new java.awt.Color(0,191,255));  // Deep sky blue
+            setScanColor(new java.awt.Color(173,216,230)); // Light blue
+            setBulletColor(new java.awt.Color(30,144,255));
+	}
+", "Blue", false);
+	}
+	

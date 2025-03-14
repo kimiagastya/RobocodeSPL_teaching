@@ -1,0 +1,10 @@
+delta CircularMovement {
+    
+    modifies jab.module.Movement {
+        
+        modifies move() {
+            bot.setMaxVelocity(4);
+            bot.setTurnRight(5);
+        }
+    }
+}
