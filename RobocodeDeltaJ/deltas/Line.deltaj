@@ -8,7 +8,6 @@ delta Line {
         adds private int moveDirection = 1;
         
         modifies move() {
-            original();
             this.bot.setMaxVelocity(8);
             this.bot.setAhead(10000 * moveDirection);
         }
