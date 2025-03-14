@@ -1,4 +1,4 @@
-delta MaximumPowerGun {
+delta MouseClickGun {
 
 	modifies jab.module.Gun {
 		adds import java.awt.event.InputEvent;

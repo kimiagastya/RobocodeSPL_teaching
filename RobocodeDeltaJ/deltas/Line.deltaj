@@ -5,11 +5,7 @@ delta Line {
 	    adds import robocode.Event;
 	    adds import jab.module.Module;
     	
-        adds private int moveDirection;
-        
-        modifies constructor(jab.module.Module bot) {
-            moveDirection = 1;
-        }
+        adds private int moveDirection = 1;
         
         modifies move() {
             original();
